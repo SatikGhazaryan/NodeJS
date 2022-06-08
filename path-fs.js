@@ -39,9 +39,9 @@ const filePath = path.join(thisPath, "package.json");
 //   if (err) throw err;
 // });
 
-fs.stat("file.txt", (err, status) => {
+fs.stat("./file.txt", (err, status) => {
   if (err) throw err;
-  if (status.isDerictory()) {
+  if (status.isDirectory()) {
     console.log("this is deriactory");
   }
   if (status.isFile()) {

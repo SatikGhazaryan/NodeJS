@@ -4,8 +4,11 @@
   "description": "assertionTesting.js",
   "main": "assertionTesting.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon http.js"
   },
   "author": "Satik Ghazaryan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
